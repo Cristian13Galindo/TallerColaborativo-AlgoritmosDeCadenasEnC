@@ -1,0 +1,3 @@
+C:/Users/andre/OneDrive/Desktop/All/UPTC/2024-2/Programacion/TallerColaborativo-AlgoritmosDeCadenasEnC/cmake-build-debug/CMakeFiles/TallerColaborativo_AlgoritmosDeCadenasEnC.dir
+C:/Users/andre/OneDrive/Desktop/All/UPTC/2024-2/Programacion/TallerColaborativo-AlgoritmosDeCadenasEnC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/andre/OneDrive/Desktop/All/UPTC/2024-2/Programacion/TallerColaborativo-AlgoritmosDeCadenasEnC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
