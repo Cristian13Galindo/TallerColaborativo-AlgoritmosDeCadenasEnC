@@ -210,6 +210,12 @@ void validateParentheses(char *parentheses) {
     }
 }
 
+/**
+ * Metodo para saber la ultima ocurreccion de un subString en un string
+ * @param substring el subString que se quiere saber su ultima ocurrencia
+ * @param frase la frase en donde se quiere buscar el subString
+ * @return la pocicion en donde esta el ultimo subString o 0 si no existe
+ */
 int lastOccurrence(char *substring, char *frase) {
     char *lastPos = NULL;
     char *currentPos = frase;
@@ -228,6 +234,10 @@ int lastOccurrence(char *substring, char *frase) {
     }
 }
 
+/**
+ * Metodo que permite capitalizar un texto
+ * @param text texto para capitalizar
+ */
 void capitalizeText(char *text) {
     int inWord = 0;
     int wordLength = 0;  // Para contar la longitud de cada palabra
