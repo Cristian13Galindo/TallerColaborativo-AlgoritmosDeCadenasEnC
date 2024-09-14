@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/andre/OneDrive/Desktop/All/UPTC/2024-2/Programacion/TallerColaborativo-AlgoritmosDeCadenasEnC/cmake-build-debug",
-		"source" : "C:/Users/andre/OneDrive/Desktop/All/UPTC/2024-2/Programacion/TallerColaborativo-AlgoritmosDeCadenasEnC"
+		"build" : "C:/Users/Relvg/CLionProjects/TallerColaborativo-AlgoritmosDeCadenasEnC/cmake-build-debug",
+		"source" : "C:/Users/Relvg/CLionProjects/TallerColaborativo-AlgoritmosDeCadenasEnC"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
