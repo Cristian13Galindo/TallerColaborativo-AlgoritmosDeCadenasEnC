@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+#include "tools.h"
 #define MAX 100
 
 void verifyString(char *text);
@@ -16,11 +17,13 @@ int main() {
     int option;
     char *menu = "------------------------------------------------ \n "
             "1. Verificar si la cadena de texto es palíndroma \n "
-            "2. Validar paréntesis \n "
-            "3. Buscar última ocurrencia de un substring \n "
+            "2. Validar parentesis \n "
+            "3. Buscar ultima ocurrencia de un substring \n "
             "4. Capitalizar primera letra de cada palabra \n "
-            "5. Salir \n\n"
-            "Digite una opción \n";
+            "5. Formatear valor numerico \n "
+            "6. Verificar si una cadena finaliza con otra \n "
+            "9. Salir \n\n"
+            "Digite una opcion \n";
 
     do {
         printf("%s", menu);
@@ -84,8 +87,35 @@ int main() {
                 printf("Texto capitalizado: %s\n", text);
                 break;
             }
+            case 5: {
+                double valor;
+                printf("Ingrese un valor numérico: ");
+                scanf("%lf", &valor);
+                formatearValor(valor);
+                break;
+            }
+            case 6: {
+                char cadena[100];
+                char subcadena[100];
+                printf("Ingrese la cadena de texto: ");
+                scanf("%s", cadena);
+                printf("Ingrese la subcadena: ");
+                scanf("%s", subcadena);
+                if (verificarFinalCadena(cadena, subcadena)) {
+                    printf("La cadena finaliza con la subcadena.\n");
+                } else {
+                    printf("La cadena NO finaliza con la subcadena.\n");
+                }
+                break;
+            }
+            case 9:
+                printf("Saliendo del programa...\n");
+            break;
+            default:
+                printf("Opción no válida\n");
+            break;
         }
-    } while (option >= 1 && option <= 4);
+    } while (option != 9);
 
     return 0;
 }
