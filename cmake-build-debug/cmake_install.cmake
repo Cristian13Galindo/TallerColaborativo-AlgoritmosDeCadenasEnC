@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Alejandro-Gamer/Desktop/Progra3/TallerColaborativo-AlgoritmosDeCadenasEnC
+# Install script for directory: C:/Users/camil/Desktop/CLionProyects/TallerColaborativo-AlgoritmosDeCadenasEnC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Alejandro-Gamer/Desktop/Progra3/TallerColaborativo-AlgoritmosDeCadenasEnC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/camil/Desktop/CLionProyects/TallerColaborativo-AlgoritmosDeCadenasEnC/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

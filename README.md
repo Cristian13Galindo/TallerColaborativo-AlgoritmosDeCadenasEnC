@@ -1,12 +1,33 @@
-# TallerColaborativo-AlgoritmosDeCadenasEnC
+# TallerColaborativo-AlgoritmosDeCadenasEn"C"
 
-Plataforma (Windows)
-Editor (CLion)
+[![C](https://img.shields.io/badge/C-11-green)](#)
+[![UPTC](https://img.shields.io/badge/UPTC-Programacion%20III-red)](#)
+[![CLion](https://img.shields.io/badge/CLion-2024.2.0.1-blue)](#)
 
-Rafael Esteban Lozano->Metodos: Capitalizar una cadena de texto y Buscar la última ocurrencia de una subcadena
+Taller colaborativo que implementa métodos que involucran el manejo de cadenas de texto utilizando herramientas vistas a lo largo del semestre de Programación III de Ingeniería de Sistemas y Computación de la [uptc](http://www.uptc.edu.co).
 
-Andres Felipe Perez -> Metodos: Verificar si una cadena de texto es palindroma y validar parentesis
+## Plataforma (Windows) Editor (CLion)
 
-Alejandro Villanueva -> Métodos: Formatear el valor numérico y Verificar si una cadena de texto finaliza con otra.
+### Rafael Esteban Lozano
+#### Metodos: 
+- Capitalizar una cadena de texto 
+- Buscar la última ocurrencia de una subcadena
 
-Cristian Camilo Galindo Suarez ->Metodos: Dividir una cadena en un arreglo de caracteres y Unir arreglo de caracteres en una cadena
+### Andres Felipe Perez 
+#### Metodos: 
+- Verificar si una cadena de texto es palindroma 
+- validar parentesis
+
+### Alejandro Villanueva
+#### Métodos: 
+- Formatear el valor numérico 
+- Verificar si una cadena de texto finaliza con otra.
+
+### Cristian Camilo Galindo Suarez 
+#### Metodos: 
+- Dividir una cadena en un arreglo de caracteres 
+- Unir arreglo de caracteres en una cadena.
+
+## Instrucciones
+
+- Clone su copia (Git clone https://github.com/Cristian13Galindo/TallerColaborativo-AlgoritmosDeCadenasEnC.git)
