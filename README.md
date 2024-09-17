@@ -30,4 +30,4 @@ Taller colaborativo que implementa métodos que involucran el manejo de cadenas 
 
 ## Instrucciones
 
-- Clone su copia (Git clone https://github.com/Cristian13Galindo/TallerColaborativo-AlgoritmosDeCadenasEnC.git)
+- Clone su copia (git clone https://github.com/Cristian13Galindo/TallerColaborativo-AlgoritmosDeCadenasEnC.git)
